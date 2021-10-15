@@ -18,8 +18,8 @@ export class UserProfileComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  showAge: boolean = false;
+  showAge: boolean = true;
   displayAge() {
-    this.showAge = true;
+    this.showAge = false;
   }
 }
